@@ -3,7 +3,7 @@ const proxyAgent = require('../constants/proxyAgent.js');
 
 const marketInfoClient = axios.create({
     baseURL: process.env.NSE_MARKET_INFO_BASE_URI,
-    httpsAgent: proxyAgent
+    //httpsAgent: proxyAgent
 });
 
 module.exports = {

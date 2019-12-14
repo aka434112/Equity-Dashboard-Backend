@@ -10,7 +10,7 @@ const corporateSvc = axios.create({
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'en-US,en;q=0.9'
     },
-    httpsAgent: proxyAgent
+    //httpsAgent: proxyAgent
 });
 
 module.exports = {
